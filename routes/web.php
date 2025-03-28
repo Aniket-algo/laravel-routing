@@ -82,7 +82,7 @@ Route::get("/datassssssssssssssssssss", function(){
 
 
  //! if any user save route as bookmark and if we change route name and user again same it will get error so to get rid of this problem we use a cocept of redirect
- Route::redirect('/home', '/demo'); 
+//  Route::redirect('/home', '/demo'); 
 
 
 
