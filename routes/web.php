@@ -91,3 +91,9 @@ Route::get("/datassssssssssssssssssss", function(){
  Route::fallback(function(){
    return "<h1>Page Not FOund</h1>";
  });
+
+
+ //!  create a route for template engine here we practise all syntax of blade.
+ Route::get("/syntaxBlade", function(){
+     return view("syntax");
+ });
